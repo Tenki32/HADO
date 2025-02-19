@@ -1,0 +1,8 @@
+// Находим метатег по атрибуту name
+var metaTag = document.querySelector('meta[name="description"]');
+
+// Проверяем, найден ли метатег
+if (metaTag) {
+    // Меняем значение атрибута content
+    metaTag.setAttribute('content', 'Новый текст описания для магазина внутриигровых товаров проекта WAYRUST.');
+}
