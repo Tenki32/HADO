@@ -1,6 +1,4 @@
-
 const metaDescription = document.querySelector('meta[name="description"]');
-
 
 if (metaDescription) {
 
